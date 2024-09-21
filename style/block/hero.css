@@ -1,0 +1,66 @@
+.hero {
+    background-image: linear-gradient(rgba(29, 47, 48, 0.7),rgba(29, 47, 48, 0.7)), url('../../img/desktop/hero/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 550px;
+}
+
+.hero__container {
+    max-width: 1140px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #fff;
+
+    margin: auto;
+}
+
+.hero__title {
+    display: flex;
+    max-width: 688px;
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+
+    margin-bottom: 16px;
+}
+
+.hero__description {
+    max-width: 635px;
+
+    display: flex;
+
+    text-wrap: wrap;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 24px;
+}
+
+.hero__btn {
+    max-width: 220px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: #BAE249;
+
+    gap: 8px;
+
+    background-color: transparent;
+}
+
+.hero__arrow {
+
+}
